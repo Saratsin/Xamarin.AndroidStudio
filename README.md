@@ -11,7 +11,7 @@ Instruction:
 1. Copy the AndroidStudio folder to your Android project folder (where you have Resources folder).
  
    Note: use AndroidX.AndroidStudio folder if you have AndroidX
-2. Open Android Studio, tap File -> Open -> Select AndroidStudio folder inaide your Android project folder and open it
+2. Open Android Studio, tap File -> Open -> Select AndroidStudio folder inside your Android project folder and open it
 3. If you have some non-default views: add related libraries references to the build.gradle file
 4. Build the project (green hammer button)
 5. Enjoy using it
