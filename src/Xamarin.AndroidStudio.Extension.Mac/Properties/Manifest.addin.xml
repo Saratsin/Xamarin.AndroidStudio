@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+    <Extension path="/MonoDevelop/Ide/ContextMenu/ProjectPad">
+        <Condition id="ItemType" value="ProjectFolder">
+            <CommandItem id="Xamarin.AndroidStudio.Extension.Mac.OpenResourcesInAndroidStudio" />
+        </Condition>
+        <Condition id="ItemType" value="ProjectFile">
+            <ItemSet id = "OpenWith" _label = "Open _With" autohide="true">
+                <SeparatorItem id="OpenInAndroidStudioSeparator" />
+                <CommandItem id="Xamarin.AndroidStudio.Extension.Mac.OpenFileInAndroidStudio" />
+            </ItemSet>
+        </Condition>
+    </Extension>
+    
+    <Extension path="/MonoDevelop/Ide/Commands/Edit">
+        <Command 
+            id="Xamarin.AndroidStudio.Extension.Mac.OpenResourcesInAndroidStudio" 
+            _label="Open in Android Studio"
+            _description="Opens Xamarin.Android project resources in Android Studio"
+            defaultHandler="Xamarin.AndroidStudio.Extension.Mac.CommandHandlers.OpenResourcesInAndroidStudioCommandHandler"
+            macShortcut="Meta|Shift|A" />
+        <Command 
+            id="Xamarin.AndroidStudio.Extension.Mac.OpenFileInAndroidStudio" 
+            _label="Android Studio (extension)"
+            _description="Opens Xamarin.Android resource file in Android Studio"
+            defaultHandler="Xamarin.AndroidStudio.Extension.Mac.CommandHandlers.OpenFileInAndroidStudioCommandHandler" />
+    </Extension>
+</ExtensionModel>

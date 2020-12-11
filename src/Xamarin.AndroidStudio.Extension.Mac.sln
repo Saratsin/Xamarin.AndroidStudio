@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.AndroidStudio.Extension.Mac", "Xamarin.AndroidStudio.Extension.Mac\Xamarin.AndroidStudio.Extension.Mac.csproj", "{10E73E93-4FA1-4F80-B2FE-41E319CD42BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{79358F13-95DE-4D9F-8BB5-8E15DD3294F5}"
+	ProjectSection(SolutionItems) = preProject
+		create_mpack.sh = create_mpack.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10E73E93-4FA1-4F80-B2FE-41E319CD42BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E73E93-4FA1-4F80-B2FE-41E319CD42BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E73E93-4FA1-4F80-B2FE-41E319CD42BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E73E93-4FA1-4F80-B2FE-41E319CD42BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21A9A1AB-CAFF-40A4-B391-41F9C87A3F70}
+	EndGlobalSection
+EndGlobal
