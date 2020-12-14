@@ -2,7 +2,7 @@
 
 Xamarin.AndroidStudio is a Visual Studio extension that allows you to manage your Xamarin.Android project resources with Android Studio
 
-Standard projects created for work with Android Resources of 
+This repositoriy also includes standard projects created for work with Android Resources of 
 the Xamarin.Android project inside the Android Studio
 
 ## Downloads
